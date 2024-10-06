@@ -17,13 +17,6 @@ from dotenv import load_dotenv
 
 
 '''
-Make sure the required packages are installed: 
-Open the Terminal in PyCharm (bottom left). 
-
-On Windows type:
-python -m pip install -r requirements.txt
-
-On MacOS type:
 pip3 install -r requirements.txt
 
 This will install the packages from the requirements.txt for this project.
