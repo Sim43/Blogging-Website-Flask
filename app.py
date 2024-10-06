@@ -13,9 +13,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 import os
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-# from dotenv import load_dotenv
-# Optional: add contact me email functionality (Day 60)
-# import smtplib
+from dotenv import load_dotenv
 
 
 '''
@@ -30,7 +28,7 @@ pip3 install -r requirements.txt
 
 This will install the packages from the requirements.txt for this project.
 '''
-# load_dotenv()
+load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(12)
